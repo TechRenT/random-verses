@@ -21,9 +21,56 @@ p {
   font-size: 1.4em;
 }
 
+button {
+  margin-top: 2em;
+}
+
 #verse-container {
   border: 1px solid #fff;
   width: 75%;
   margin: 0 auto;
   padding: 1em 1em;
+}
+
+/* Button Styling */
+button{
+  /*background:#1AAB8A;*/
+  background: #ca4f4f;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  /* color:#1AAB8A; */
+  color: #ca4f4f;
+}
+
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  /* background: #1AAB8A; */
+  background: #ca4f4f;
+  transition:400ms ease all;
+}
+
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
 }
