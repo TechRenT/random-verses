@@ -74,7 +74,7 @@ var verses = [
   {
     verse: "Proverbs 10:22",
     text: "The blessing of the Lord makes rich, and he adds no sorrow with it."
-  }
+  },
   {
     verse: "Psalm 27:1",
     text: "Of David. The Lord is my light and my salvation; whom shall I fear? The Lord is the stronghold of my life; of whom shall I be afraid?",
